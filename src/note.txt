@@ -1,0 +1,20 @@
+<div>{/*light gray box with info */}
+    <div className='m-4 w-[800px] bg-gray-101 py-2 rounded-md'>
+    <div className='mx-2 text-white font-semibold'>This week's Forecast</div>
+    <div className='flex'>
+    <Box></Box>
+    <Box/>
+    <Box/>
+    <Box/>
+    <Box/>
+    <Box/>
+    <Box/>
+    </div>
+    </div>
+    </div>
+
+    https://api.api-ninjas.com/v1/reversegeocoding?lat=
+51.509865
+&lon=
+-0.118092
+    
