@@ -4,6 +4,7 @@ import './App.css'
 import { GrayBox } from './Components/LightGrayBox';
 import { dataforlogo } from './Components/logo';
 import { timeconvert } from './Components/UnixTime';
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
    <div>
@@ -389,6 +390,7 @@ function Gettinglocation(){
   // }
 
   return <div className="flex justify-center bg-blue-759 bg-cover bg-center h-screen">
+    <Analytics/>
     <div>{/*parent div to make header and content page in column wise fashion */}
      <div>{/*header of the page */}
       <div className='flex justify-between'>  
